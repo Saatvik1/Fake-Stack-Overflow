@@ -1,0 +1,82 @@
+/* Top Header for content */
+.top-header {
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 60px;
+    overflow-y: hidden;
+}
+
+.top-header button {
+    position: relative;
+    left: 1100px;
+    bottom: 50px;
+    background-color: #1aa7ec;
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+.top-header button:hover {
+    background-color: #178fcb;
+}
+
+/* Bottom Header for content */
+.bottom-header {
+    position: relative;
+    height: 60px;
+    bottom: 30px;
+    margin-left: 40px;
+    margin-top: 40px;
+    overflow-y: hidden;
+}
+
+.bottom-header h2 {
+    font-weight: normal;
+}
+
+.bottom-header .sort-buttons {
+    position: relative;
+    left: 700px;
+    bottom: 35px;
+    display: flex;
+}
+
+.bottom-header .sort-buttons button {
+    background-color: white;
+}
+
+.bottom-header .sort-buttons button:hover {
+    background-color: grey;
+}
+
+/* Content List CSS */
+
+.content-list {
+    height: 410px;
+    margin-left: 5px;
+    border-top: 3px dotted gray;
+    border-bottom: 3px dotted gray;
+}
+
+.content-list a:hover {
+    color: purple;
+}
+
+.scroll-buttons {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    bottom: 25px;
+    left: 200px;
+    width: 100px;
+}
+
+.scroll-buttons button {
+    background-color: #1aa7ec;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+.scroll-buttons button:hover {
+    background-color: #1891cde3;
+}

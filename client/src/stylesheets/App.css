@@ -1,0 +1,101 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Container CSS */
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* Banner Header CSS */
+.banner-header {
+    border: 2px solid black;
+    background-color: lightgrey;
+    width: 100vw;
+    height: 70px;
+    overflow-y: hidden;
+}
+
+.banner-header h1 {
+    text-align: center;
+}
+
+.banner-header input {
+    text-align: left;
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    border: 1px solid grey;
+    padding: 5px 5px 5px 5px;
+}
+
+.banner-header button {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    height: 40px;
+    padding: 5px 5px 5px 5px;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #1aa7ec;
+}
+
+.banner-header button:hover {
+    color: white;
+}
+
+/* Main Body CSS */
+
+.main-body {
+    display: flex;
+    width: 100vw;
+    height: 89vh;
+    top: 73px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation Side CSS */
+
+.nav-side {
+    width: 12vw;
+    height: 89vh;
+    border-left: 2px solid black;
+    border-right: 3px dotted grey;
+}
+
+.nav-buttons {
+    position: relative;
+    top: 40px;
+    border-bottom: 3px dotted grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-buttons button {
+    height: 40px;
+    margin-bottom: 30px;
+    padding: 5px 5px 5px 5px;
+    color: blue;
+    font-size: 20px;
+    border: unset;
+    border-radius: 5px;
+    background-color: unset;
+}
+
+.nav-buttons button:hover {
+    color: purple;
+}
+
+/* Content Side CSS (Note: Styles will vary depending on page.) */
+.content-side {
+    width: 88vw;
+    height: 89vh;
+}

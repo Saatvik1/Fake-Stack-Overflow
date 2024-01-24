@@ -1,0 +1,64 @@
+/* Welcome Container CSS */
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+}
+
+/* Welcome Options CSS */
+.welcome-options {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.welcome-options button {
+    height: 70px;
+    background-color: #1aa7ec;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 9px;
+}
+
+.welcome-options button:hover {
+    background-color: #178fcb;
+}
+
+/* Register Form CSS */
+#register-form {
+    width: 100vw;
+    height: 60vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+#register-form input {
+    width: 300px;
+    height: 40px;
+}
+
+#register-form #signup-button {
+    width: 100px;
+    background-color: rgb(60, 60, 255);
+    color: white;
+    border-radius: 9px;
+}
+
+#register-form #signup-button:hover {
+    background-color: rgb(54, 54, 222);
+}
+
+.register-fields {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+}

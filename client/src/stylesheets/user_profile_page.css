@@ -1,0 +1,54 @@
+.user-profile-container {
+    display: flex;
+    flex-direction: column;
+    height: 89vh;
+}
+
+.user-info {
+    padding-left: 20px;
+    border-bottom: 3px dotted gray;
+}
+
+.user-nav-buttons {
+    position: absolute;
+    top: 367px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-nav-buttons button {
+    height: 40px;
+    margin-bottom: 30px;
+    padding: 5px 5px 5px 5px;
+    color: blue;
+    font-size: 20px;
+    border: unset;
+    border-radius: 5px;
+    background-color: unset;
+}
+
+.user-nav-buttons button:hover {
+    color: purple;
+}
+
+.user-content {
+    height: 507px;
+}
+
+.user-question-list {
+    height: 507px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.user-question-list a:hover {
+    color: purple;
+}
+
+.user-question {
+    padding-top: 20px;
+}

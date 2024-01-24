@@ -1,0 +1,19 @@
+.answer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px dotted gray;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px
+}
+
+.answer .answer-text {
+    width: 60vw;
+}
+
+.answer .username-date {
+    margin-left: 0;
+    width: 20vw;
+}

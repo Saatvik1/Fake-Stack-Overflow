@@ -1,0 +1,37 @@
+/* CSS Style for the entire tags page. */
+.tag-page {
+    height: 88.1vh;
+}
+
+/* CSS Style for the tags header */
+
+.tag-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tag-header h1 {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.tag-header button {
+    background-color: #1aa7ec;
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+.tag-header button:hover {
+    background-color: #178fcb;
+}
+
+/* CSS Style for the tags block list */
+.tag-block-list {
+    position: relative;
+    top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    row-gap: 60px;
+    justify-content: center;
+}

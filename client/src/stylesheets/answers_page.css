@@ -1,0 +1,75 @@
+.answer-page {
+    height: 88.1vh;
+}
+
+.answer-page button:hover {
+    background-color: #178fcb;
+}
+
+.answer-page button {
+    height: 50px;
+    left: auto;
+    bottom: auto;
+    background-color: #1aa7ec;
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+.answer-page .add-answer-button {
+    position: relative;
+    left: 35px;
+    top: 20px;
+}
+
+/* CSS Styles for the Top Header */
+
+.answer-page .top-header {
+    margin-left: 0;
+    margin-top: auto;
+    width: 80vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.answer-page .top-header .question-title {
+    margin-left: 0;
+}
+
+.answer-page .top-header .num-answers {
+    width: 10vw;
+}
+
+/* CSS Styles for the Bottom Header */
+
+.answer-page .bottom-header {
+    position: relative;
+    margin-left: 0;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.answer-page .bottom-header h2 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.answer-page .bottom-header .question-text {
+    width: 37vw;
+}
+
+
+.answer-page .username-date {
+    margin-left: 0;
+}
+
+/* CSS Styles for the Answer List */
+.answer-page .answer-list {
+    height: 380px;
+    margin-left: 5px;
+    border-top: 3px dotted gray;
+    border-bottom: 3px dotted gray;
+}
